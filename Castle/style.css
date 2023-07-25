@@ -1,0 +1,144 @@
+/* CSS-Stile */
+
+body {
+    background-image: url("../Castle/picture/icegif-1692.gif");
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 5%;
+    padding: 5%;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 15%;
+    background-color: black;
+    border: 3px solid #fff;
+}
+
+.song-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#play-btn {
+    background-color: white;
+    color: #1db954;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#play-btn:hover {
+    transform: scale(1.1);
+}
+
+#play-btn:focus {
+    outline: none;
+}
+
+audio {
+    width: 400px;
+    margin-top: 30px;
+}
+
+#progress-bar-container {
+    width: 400px;
+    height: 10px;
+    background-color: #1db954;
+    margin-top: 10px;
+    position: relative;
+}
+
+#progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: white;
+    transition: width 0.2s ease-in-out;
+}
+
+#time-display {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 12px;
+    color: white;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#medal-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.overlay-text {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 1000px;
+}
+
+
+
+.progress-volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 100px;
+    margin-bottom:40px ;
+}
+
+#volume-slider {
+    width: 60px;
+    margin-left: 380px;
+    transform: rotate(-90deg);
+    writing-mode: bt-lr; 
+    
+}

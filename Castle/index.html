@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Franky</title>
+    <link rel="stylesheet" type="text/css" href="../Castle/style.css">
+</head>
+<body>
+    <div id="time"></div>
+    <div class="overlay" onclick="startPlaying()">
+        <div class="overlay-text">Click Anywhere</div>
+    </div>
+
+        <div class="container">
+            <div class="song-info">
+                <img style="width: 15%; height: 15%; margin-right: 20px;" src="../Castle/picture/travis.jpeg" alt="Song Cover">
+                <div style="color: white;">ESCAPE Plan - Travis Scott</div>
+            </div>
+            <button id="play-btn">▶</button>
+            <audio id="audio" src="../Castle/🔊Travis Scott - ESCAPE PLAN [Bass Boosted].mp3"></audio>
+            <div class="controls-container">
+                <div id="progress-bar-container">
+                    <div id="progress-bar"></div>
+                    <div id="time-display">0:00 / 0:00</div>
+                </div>
+                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+            </div>
+            <div class="icons-container">
+                <a href="LINK_TO_YOUR_DISCORD_PROFILE" target="_blank" onclick="copyText('franky_01_')">
+                    <img class="icon" src="../Castle/picture/discord-logo-discord-icon-transparent-free-png.png" alt="Discord Icon">
+                </a>
+                <a href="https://medal.tv/u/Franky01?invite=ur-MSxUTEwsMTg5OTY4MzAwLA" target="_blank">
+                    <img class="icon" id="medal-icon" src="../Castle/picture/Medal.png" alt="Medal Icon">
+                </a>
+                <a href="https://youtube.com/@frankycastle5998" target="_blank">
+                    <img class="icon" src="../Castle/picture/Youtube-icon.jpg" alt="YouTube Icon">
+                </a>
+            </div>
+        </div>
+    <script src="../Castle/main.js"></script>
+</body>
+</html>
